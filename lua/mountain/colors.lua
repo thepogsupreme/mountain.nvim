@@ -1,7 +1,8 @@
 local mountain = {
 
 	-- Grayscale 
-	yoru	= 	'#0f0f0f',
+	-- yoru	= 	'#0f0f0f',
+	yoru	= 	'#1c1c1c',
 	kesseki	= 	'#191919',
 	iwa	=	'#262626',
 	tetsu	=	'#393939',
