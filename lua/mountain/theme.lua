@@ -6,38 +6,57 @@ theme.loadSyntax = function ()
 
 	local syntax = {
 		Type =				{ fg = mountain.shinkai },
+--		StorageClass =			{ fg = mountain.shinkai },
+--		Structure =			{ fg = mountain.shinkai },
 		Constant =			{ fg = mountain.aki },
 		String =			{ fg = mountain.take },
-		Character =			{ fg = mountain.take },
-		Statement =			{ fg = mountain.kosumosu },
+		Character =			{ fg = mountain.kaen },
+--		Number =			{ fg = mountain.aki },
+--		Boolean =			{ fg = mountain.aki },
+--		Float =				{ fg = mountain.aki },
+		Statement =			{ fg = mountain.kaen },
+--		Label =				{ fg = mountain.chikyu },
 		Operator =			{ fg = mountain.mizu },
-		PreProc =			{ fg = mountain.kaen},
-		Macro =				{ fg = mountain.sora },
+		Exception =			{ fg = mountain.kaen },
+		PreProc =			{ fg = mountain.mizu },
+--		Include =			{ fg = mountain.sora },
+--		Define =			{ fg = mountain.sora },
+		Macro =				{ fg = mountain.kaen },
+--		Typedef =			{ fg = mountain.shinkai },
+--		PreCondit =			{ fg = mountain.sora },
 		Special =			{ fg = mountain.kori },
-		Underlined =		{ style = 'underline' },
+--		SpecialChar =			{ fg = mountain.kori },
+--		Tag =				{ fg = mountain.kori },
+--		Delimiter =			{ fg = mountain.kori },
+--		SpecialComment =		{ fg = mountain.kori },
+--		Debug =				{ fg = mountain.kori },
+		Underlined =			{ style = 'underline' },
 		Bold =				{ style = 'bold' },
 		Italic =			{ style = 'italic' },
+--		Ignore =			{ fg = mountain.iwa},
 		Error =				{ fg = mountain.kaen, style = 'bold,underline' },
 		Todo =				{ fg = mountain.yoru, bg = mountain.suna },
 		Conceal =			{ fg = mountain.iwa},
 
 		-- Markdown and HTML
 		markdownCodeDelimiter =		{ fg = mountain.amagumo },
-		markdownCode =				{ fg = mountain.take },
-		markdownCodeBlock =			{ fg = mountain.take },
-		markdownH1=					{ fg = mountain.sakura, style = "bold" },
-		markdownH2=					{ fg = mountain.ajisai, style = "bold" },
-		markdownLinkText =			{ fg = mountain.ajisai, style = "underline" },
-		htmlLink =					{ fg = mountain.kusa, style = "underline" },
-		htmlH1 =					{ fg = mountain.sakura, style = "bold" },
-		htmlH2 =					{ fg = mountain.ajisai, style = "bold" },
+		markdownCode =			{ fg = mountain.take },
+		markdownCodeBlock = 		{ fg = mountain.take },
+		markdownH1= 			{ fg = mountain.sakura, style = "bold" },
+		markdownH2= 			{ fg = mountain.ajisai, style = "bold" },
+    		markdownLinkText = 		{ fg = mountain.ajisai, style = "underline" },
+		htmlLink =			{ fg = mountain.kusa, style = "underline" },
+		htmlH1 =			{ fg = mountain.sakura, style = "bold" },
+		htmlH2 =			{ fg = mountain.ajisai, style = "bold" },
 
 		-- Debug
-		debugPC = 				{ bg = mountain.iwa },
+		debugPC = 			{ bg = mountain.iwa },
 	}
 		syntax.Comment =		{fg = mountain.amagumo}
+--		syntax.Conditional =		{fg = mountain.kosumosu}
 		syntax.Keyword =		{fg = mountain.sora}
-		syntax.Function =		{fg = mountain.ume }
+--		syntax.Repeat =			{fg = mountain.chikyu}
+		syntax.Function =		{fg = mountain.shinkai}
 		syntax.Identifier =		{fg = mountain.sakura};
 
 		return syntax
