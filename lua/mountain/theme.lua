@@ -19,7 +19,7 @@ theme.loadSyntax = function ()
 --		Label =				{ fg = mountain.chikyu },
 		Operator =			{ fg = mountain.mizu },
 		Exception =			{ fg = mountain.kaen },
-		PreProc =			{ fg = mountain.ume },
+		PreProc =			{ fg = mountain.chikyu },
 		Include =			{ fg = mountain.ume },
 		Define =			{ fg = mountain.kosumosu },
 		Macro =				{ fg = mountain.kaen },
@@ -56,7 +56,7 @@ theme.loadSyntax = function ()
 		syntax.Comment =		{fg = mountain.amagumo}
 --		syntax.Conditional =		{fg = mountain.kosumosu}
 		syntax.Keyword =		{fg = mountain.sora}
---		syntax.Repeat =			{fg = mountain.chikyu}
+		syntax.Repeat =			{fg = mountain.chikyu}
 		syntax.Function =		{fg = mountain.shinkai}
 		syntax.Identifier =		{fg = mountain.sakura};
 
