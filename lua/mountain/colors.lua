@@ -34,7 +34,6 @@ local mountain = {
 	kori	=	'#a5b4cb',
 	yuki	=	'#c1c1c1',
 	-- yuki	=	'#f0f0f0',
-
 	none	=	'NONE',
 }
 
